@@ -9,5 +9,5 @@ f.close()
 f = open('database.csv', 'r', encoding='utf-8')
 data = list(f.read())
 f.close()
-
+print("Hello PEBU3OP")
 print(data)
