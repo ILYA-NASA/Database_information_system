@@ -19,7 +19,7 @@ def data_reader():
 
 def data_processor(lst, n):
     a = []
-    if n == 'all':
+    if n == 6:
         return lst
     elif 0 < n < 6:
         for i in lst:
