@@ -32,5 +32,5 @@ def data_processor(lst, n):
     else:
         return 'До встречи!'
 
-data = 'processing_model.csv'
-print(data_processor(read_file(data, 'r'), user_choice()))
+# data = 'processing_model.csv'
+# print(data_processor(read_file(data, 'r'), user_choice()))
