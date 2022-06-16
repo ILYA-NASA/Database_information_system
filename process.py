@@ -1,3 +1,6 @@
+from User_Interface import user_choice
+
+
 def data_reader():
     data = open('processing_model.txt', 'r', encoding= 'utf-8')
     data = data.read().splitlines()
@@ -26,6 +29,6 @@ def data_processor(lst, n):
             a.append(i[n-1])
         return a
     else:
-        return 'Error'
+        return 'До встречи!' 
 
-print(data_processor(data_reader(), 2))
+print(data_processor(data_reader(), user_choice()))
