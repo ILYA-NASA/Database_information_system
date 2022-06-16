@@ -1,6 +1,7 @@
 # СМОТРЕЛА КАК РАБОТАТЬ С CSV
 f = open('database.csv','w',encoding='utf-8')
 f.writelines('id')
+f.writelines(';')
 f.writelines('name' + '\n')
 f.writelines('123')
 f.writelines('name' + '\n')
