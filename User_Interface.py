@@ -15,8 +15,9 @@ system('cls')
 def user_choice():
     while True:
         user_input = input('''
-        1 - вывод дней рождения, 2 - вывод успеваемости 
-        3 - вывод пола учеников, 4 - вывод списка целиком
+        1 - вывод ID, 2 - вывод ФИО 
+        3 - вывод ДР, 4 - вывод успеваемости
+        5 - вывод пола, 6 - вывод всех данных
         0 - выход\n
 Выберите действие: ''')
         try:
@@ -25,11 +26,11 @@ def user_choice():
             print('''
 Введите номер цифрой!''')
             continue
-        if user_input >= 0 and user_input <= 4:
+        if user_input >= 0 and user_input <= 6:
             return user_input
         else:
             print('''
-Выбрать нужно от 0 до 4!''')
+Выбрать нужно от 0 до 6!''')
 
 
 if __name__ == '__main__':
