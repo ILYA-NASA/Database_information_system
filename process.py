@@ -33,4 +33,4 @@ def data_processor(lst, n):
         return 'До встречи!'
 
 data = 'processing_model.csv'
-print(data_processor(read_file(data, 'r'), user_choice()))
+print(data_processor(read_file(data), user_choice()))
