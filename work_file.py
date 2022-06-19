@@ -11,6 +11,7 @@ def read_file(file):
 # data = 'processing_model.csv'
 # print(read_file(data))
 
+
 def write_file(list, mod):
     f = open('result.csv', mod)
     # for line in list:
@@ -27,5 +28,5 @@ def write_file(list, mod):
     if mod == 'w':
         print('Данные перезаписаны!')
 
-mod = 'a'
+mod = 'w'
 write_file(list, mod)
