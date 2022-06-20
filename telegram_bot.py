@@ -2,10 +2,14 @@
 
 from telegram.ext import ApplicationBuilder, CommandHandler
 from telegram_bot_commands import *
+# from User_Interface import user_choice
+from process import data_processor
+from work_file import read_file
 
 app = ApplicationBuilder().token("5157594801:AAFHHasq8CBNBoT5y6V55vvkMYuawHJk4_8").build()
 
 app.add_handler(CommandHandler("f1", help_command))          # Показать список команд
+# app.add_handler(CommandHandler("1", id_command))             # 1 - вывод ID
 app.add_handler(CommandHandler("1", id_command))             # 1 - вывод ID
 app.add_handler(CommandHandler("2", fio_command))            # 2 - вывод ФИО
 app.add_handler(CommandHandler("3", birthday_command))       # 3 - вывод ДР
