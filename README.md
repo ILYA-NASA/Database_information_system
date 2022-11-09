@@ -13,7 +13,7 @@ def append_info\
 def delete_info\
 (+ функция генерации)\
 возвращает обработанный список  
-пишет - Александр https://github.com/Aaallleeexxx97
+пишет - [Александр](https://github.com/Aaallleeexxx97)
 
 2. модуль Editor_file  
 функции  
@@ -25,7 +25,7 @@ def save_file
 - Кладет в переменную
 - Получает список для сохраненя
 - Сохраняет полученную информацию в новый файл  
-пишет - Снежана https://github.com/SnezhannaPristavka 
+пишет - [Снежана](https://github.com/SnezhannaPristavka) 
 
 3. модуль Processing_file  
 def ...
@@ -33,7 +33,7 @@ def ...
 - Получаете исходный список
 - Формирует необходимый список
 - возвращает список  
-пишет - Всеволод https://github.com/PEBU3OP1
+пишет - [Всеволод](https://github.com/PEBU3OP1)
 
 4. модуль Print_List 
 функция  
@@ -41,7 +41,7 @@ def console_print
 - Получает список 
 - Выводит его на консоль
 - возвращает список  
-пишет- Анна https://github.com/AnnaAdjikiss
+пишет- [Анна](https://github.com/AnnaAdjikiss)
 
 5. модуль User_Interface  
 функция  
@@ -52,9 +52,9 @@ def user_choice
 - Вывод успеваемости
 - Вывод пола   
 Возвращает выбор пользователя  
-пишет- Илья https://github.com/ILYA-NASA
+пишет- [Илья](https://github.com/ILYA-NASA)
 
 6. модуль ТГ Бота   
 активирует Телеграм-Бота для управления информационной системой   
 (запросы пользователя и результаты выводятся в мессенджере)   
-пишет - Евгений  https://github.com/Evgenii-Kosachev 
+пишет - [Евгений](https://github.com/Evgenii-Kosachev) 
